@@ -1,0 +1,27 @@
+# Local browser profiles, reports and settings
+/mixie-buff-itch_profiles/
+/mixie-buff-itch_reports/
+/mixie-buff-itch_settings.json
+/mixie_qa_profiles/
+/mixie_qa_reports/
+/mixie_qa_settings.json
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local logs and secrets
+*.log
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
